@@ -11,7 +11,7 @@ import exercice
 
 class TestExercice(unittest.TestCase):
     def test_square_root(self):
-        values = [12, 200, 20]
+        values = [12.0, 200, 20]
 
         output = [exercice.square_root(v) for v in values]
         answer = [math.sqrt(v) for v in values]
