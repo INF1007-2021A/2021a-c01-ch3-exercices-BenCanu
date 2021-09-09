@@ -22,7 +22,7 @@ def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float
     rad_mins = angle_mins / 60
     rad_secs = angle_secs / 3600
     rad_totaux = math.radians(angle_degs + rad_mins + rad_secs)
-    #ou angle_total = angle_degs + angles_mins / 60 + angle_secs / 3600
+    #ou angle_total = angle_degs + angles_mins / 60 + angle_secs / 3600.
     return rad_totaux
 
 
